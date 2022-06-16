@@ -1,0 +1,81 @@
+body{
+    background: #E5E5E5;
+}
+#inicio{
+    height: 540px;
+    text-align: center;
+}
+/*.contenedor{
+}*/
+#bt-iniciar{
+    margin-top: 250px;
+    width: 269px;
+    height: 66px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: none;
+    border-radius: 24px;
+}
+#bt-agregar{
+    width: 232px;
+    height: 67px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: darkblue;
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.estilo-azul{
+    width: 269px;
+    height: 66px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    border: none;
+    border-radius: 24px;
+}
+.estilo-claro{
+    width: 232px;
+    height: 67px;
+    font-size: 16px;
+    font-weight: bold;
+    color: darkblue;
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+#agregar-palabra{
+    text-align: center;
+    height: 540px;
+    width: auto;
+}
+#add-palabra{
+    font-size: 32px;
+    width: 340px;
+    height: 50px;
+    color: blue;
+    margin-bottom: 300px;
+    resize: none;
+}
+::placeholder { 
+    font-size: 32px;
+    color: blue; 
+}
+.subrayado{
+    text-align: center;
+}
+footer{
+    height: 40px;
+    text-align: center;
+    background:gray;
+    padding-top: 10px;
+}
+.copyright{
+    color:#ffffff;
+    font-size: 20px;
+}

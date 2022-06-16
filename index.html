@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Juego del Ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="imagenes/Vector.jpg" alt="logo de alura" style="display: block;">
+        <div id="inicio">
+            <button id="bt-iniciar">Iniciar Juego</button><br>
+            <button id="bt-agregar">Agregar Palabra</button>
+        </div>
+        <div id="aparece-ahorcado" class="canvas">
+            <canvas id="horca" height="500px" width="960px"></canvas>
+            <div class="subrayado">
+                <button id="bt-nuevojuego" class="estilo-azul">Nuevo Juego</button>
+                <button id="bt-desistir" class="estilo-claro">Desistir</button>
+            </div>
+        </div>
+        <div id="agregar-palabra">
+            <textarea name="add-palabra" id="add-palabra" placeholder="Ingrese una palabra"></textarea><br>
+            <button id="bt-nuevaPalabra" class="estilo-azul">Guardar y empezar</button>
+            <button id="bt-cancelar" class="estilo-claro">Cancelar</button> 
+        </div>
+        <footer>
+            <p class="copyright">&copy Creado por ISRAEL ISAIAS MOO CHABLE</p>
+        </footer>
+        <script src="logicaJuego.js"></script>
+    </body>
+</html>
